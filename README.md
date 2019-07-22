@@ -18,9 +18,8 @@ You'll need have the following installed:
 
 # Install
 ` $ git clone https://www.github.com/roshancode/YogaAI
-
-  $ cd YogaAI
-  $ ./install.sh `
+$ cd YogaAI
+$ ./install.sh `
 
 
 # Run
