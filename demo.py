@@ -158,7 +158,7 @@ if __name__ == '__main__':
                                 (255, 255, 255), 10)
                 else:
                     pose_pred = mC.pose()
-                    cv2.putText(im, "YogAI", 
+                    cv2.putText(im, "YogaAI", 
                                 (100, 100), cv2.FONT_HERSHEY_SIMPLEX, 3.0,
                                 (255, 255, 255), 15)
                     cv2.putText(im, "%s" % pose_pred,
