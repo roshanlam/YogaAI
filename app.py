@@ -39,10 +39,12 @@ def on_message(client, userdata, msg):
         flow = Flow(f, current_pose=current_pose) 
         flow.run()
 
-
+        #  Need to add more features 
+        #  features maybe be anything that
+        # improves the applition but does not slow it down
+        
 client = mqtt.Client()
 client.on_connect = on_connect
 client.on_message = on_message
-
 client.connect(HOST, PORT, 60)
 client.loop_forever()
