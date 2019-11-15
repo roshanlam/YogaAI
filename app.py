@@ -7,6 +7,7 @@ from flow import Flow
 Host = 'localhost'
 PORT = 1883
 
+
 def on_connect(client, userdata, flags, rc):
     print("Connected to {0} with result code {1}".format(HOST, rc))
     # Subscribe to the hotword detected topic
