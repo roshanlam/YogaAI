@@ -1,5 +1,5 @@
 # YogaAI
-YogaAI is a responsive virtual yoga instructor using pose estimation to guide and correct a yogi.
+YogaAI is a responsive virtual yoga instructor that uses pose estimation to guide and correct a yogi.
 
 # Dependencies
 You'll need have the following installed:
